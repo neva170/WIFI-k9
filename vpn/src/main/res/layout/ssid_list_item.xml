@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?android:attr/listPreferredItemHeight">
+
+        <RelativeLayout
+            android:id="@+id/ssid_list_caption2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="?android:attr/listPreferredItemPaddingRight"
+            android:layout_marginStart="?android:attr/listPreferredItemPaddingRight"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ssid_list_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                tools:text="Ssid name" />
+
+            <TextView
+                android:id="@+id/ssid_list_caption1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ssid_list_name"
+                android:text="Last time connected" />
+
+            <TextView
+                android:id="@+id/ssid_list_last_connected"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ssid_list_name"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_toEndOf="@id/ssid_list_caption1"
+                android:layout_toRightOf="@id/ssid_list_caption1"
+                tools:text="mayday" />
+
+        </RelativeLayout>
+
+        <ImageButton
+            android:id="@+id/ssid_list_item_delete_button"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginEnd="?android:attr/listPreferredItemPaddingRight"
+            android:layout_marginRight="?android:attr/listPreferredItemPaddingRight"
+            android:background="@null"
+            android:contentDescription="Delete"
+            android:src="@drawable/ic_delete_grey600_24dp" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

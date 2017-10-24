@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="64dp"
+    android:orientation="vertical"
+    tools:context=".InviteFriends">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Invite Friends"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <ImageView
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:contentDescription="Logo"
+        android:src="@drawable/logo_gray" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/invite_via_sms"
+        style="@style/k9.button.invite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Invite via SMS"
+        app:backgroundTint="#566cb0" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/invite_via_email"
+        style="@style/k9.button.invite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Invite via Email"
+        app:backgroundTint="#cdcbc8" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/invite_via_google_plus"
+        style="@style/k9.button.invite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Invite via Google+"
+        app:backgroundTint="#e55651" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/invite_via_whatsapp"
+        style="@style/k9.button.invite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Invite via WhatsApp"
+        app:backgroundTint="#00ac68" />
+</LinearLayout>

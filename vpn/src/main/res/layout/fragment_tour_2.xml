@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="24dp"
+        android:layout_marginTop="16dp"
+        android:text="Using WiFi-K9"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:paddingTop="20dp"
+            android:text="WiFi-K9 automatically starts when you connect to a wifi hotspot. You can disable this automatic protection in the Settings screen and manually start it each time by pressing the ”Start” button on the ”Protect” screen."
+            android:textAlignment="center" />
+
+        <ImageView
+            android:layout_width="105dp"
+            android:layout_height="125dp"
+            android:layout_marginStart="16dp"
+            android:src="@drawable/screen1"
+            android:layout_marginLeft="16dp" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_gravity="end"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="70dp"
+        android:src="@drawable/arrow_right" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="105dp"
+            android:layout_height="95dp"
+            android:layout_marginRight="16dp"
+            android:src="@drawable/screen2" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:paddingTop="20dp"
+            android:text="WiFi-K9 automatically starts when you connect to a wifi hotspot. You can disable this automatic protection in the Settings screen and manually start it each time by pressing the ”Start” button on the ”Protect” screen."
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="70dp"
+        android:src="@drawable/arrow_left" />
+</LinearLayout>

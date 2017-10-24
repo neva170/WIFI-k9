@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="32dp"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="WELCOME TO WiFi-K9!"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ImageView
+        android:layout_width="64dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="Dog logo"
+        android:src="@drawable/logo_gradient" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:gravity="center_horizontal"
+        android:text="WiFi-K9 protects your wifi signal from hackers and thieves by encrypting your connection with the toughest, most advance encryption available. Using WiFi-K9 helps keep your personal data safe!" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Even though the technology is incredibly sophisticated, WiFi-K9’s protection is simple and easy to use. To learn more about using our app, follow the quick tutorial below:" />
+
+    <Button
+        android:id="@+id/tour_btn_start"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="16dp"
+        android:background="@drawable/blue_border_rounded_rect"
+        android:padding="8dp"
+        android:text="Take Tutorial"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#537cee" />
+
+    <Button
+        android:id="@+id/tour_btn_skip"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Skip Tutorial"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#537cee" />
+
+
+</LinearLayout>

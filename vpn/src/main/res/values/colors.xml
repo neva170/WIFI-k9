@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--TODO delele it-->
+    <color name="main_text">#2196f3</color>
+    <color name="text_light">#c2d8fb</color>
+    <color name="text_medium">#85b1f7</color>
+
+    <color name="colorPrimary">#357df3</color>
+    <color name="colorPrimaryDark">#2d68c9</color>
+    <color name="colorAccent">#40c9ff</color>
+
+    <color name="colorSplashBack">#4284f3</color>
+</resources>

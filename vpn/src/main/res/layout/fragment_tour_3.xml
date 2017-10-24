@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="24dp"
+        android:layout_marginTop="16dp"
+        android:text="What does WiFi-K9 do?"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="105dp"
+            android:layout_height="125dp"
+            android:layout_marginRight="16dp"
+            android:src="@drawable/screen3" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:paddingTop="20dp"
+            android:text="Technically, WiFi-K9 creates a ''VPN'' or ''Virtual Private Network'', which is an encrypted tunnel between your device and our server. The first time you start WiFi-K9, you may need to approve the creation of a ''VPN Connection''."
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="70dp"
+        android:src="@drawable/arrow_left" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:paddingTop="20dp"
+            android:text="When WiFi-K9 is running, a ''key'' will appear in the upper left corner of your screen to show you’re protected."
+            android:textAlignment="center" />
+
+        <ImageView
+            android:layout_width="105dp"
+            android:layout_height="95dp"
+            android:layout_marginLeft="16dp"
+            android:src="@drawable/screen4" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="170dp"
+        android:src="@drawable/arrow_right" />
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2012-2016 Arne Schwabe
+  ~ Distributed under the GNU GPL v2 with additional terms. For full terms see the file doc/LICENSE.txt
+  -->
+
+<resources>
+	<!--  Keep the order the same as the TYPE_ constants in VPNProfile -->
+    <string-array name="vpn_types">
+        <item>Certificates</item>
+        <item>PKCS12 File</item>
+        <item>Android Certificate</item>
+        <item>Username/Password</item>
+        <item>Static Keys</item>
+        <item>User/PW + Certificates</item>
+        <item>User/PW + PKCS12 </item>
+        <item>User/PW + Android</item>
+    </string-array>
+    <string-array name="tls_directions_entries">
+        <item translatable="false">0</item>
+        <item translatable="false">1</item>
+        <item>Unspecified</item>
+        <item>Encryption (tls-crypt)</item>
+    </string-array>
+    <string-array name="crm_entries">
+        <item>No reconnection retries</item>
+        <item>One reconnection retry</item>
+        <item>Five reconnection retries</item>
+        <item>Fifty reconnection retries</item>
+        <item>Unlimited reconnection retries</item>
+    </string-array>
+
+    <string-array name="faq1">
+        <item>What is VPN?</item>
+        <item>VPN stands for Virtual Private Network. It helps our app to protect your connection and hide sensitive data from anyone who will try to steal it. After that in case anyone tries to intercept you traffic they wont be able to read it because our VPN uses most advanced encryption algorithms available and all data will be ciphered.</item>
+    </string-array>
+    <string-array name="faq2">
+        <item>Why it\'s important to protect your data?</item>
+        <item>Nowadays it\'s very important to secure your sensitive data, especially now when everyone uses their devices with financial operations and Internet is full of guides of how to break in. With WiFi-K9 security you can rest assured that no one will be able to get your credit card info or get inside your mobile bank. No one will be able to read your messages or listen calls. The only way to get to your data would be stealing your device.</item>
+    </string-array>
+    <string-array name="faq3">
+        <item>How WiFi-K9 protects a connection?</item>
+        <item>Currently WiFi-K9 works only via Wi-Fi and when you get to a public Wi-Fi hotspot by default our app will automatically secure your connection. It will connect to our VPN server and establish a secure encrypted channel. From now on all your data will be safe.</item>
+    </string-array>
+    <string-array name="faq4">
+        <item>Do you store logs of user connections and traffic in your servers?</item>
+        <item>No, our log files are completely clean. We don\'t store any data, we don\'t even know if you ever connected to our servers.</item>
+    </string-array>
+    <string-array name="faq5">
+        <item>What is Safe List?</item>
+        <item>Safe List - is a collection of Wi-Fi Hotspots which you considered to be safe for use. If you added specific hotspot into that list WiFi-K9 wont be protecting your data while you using that hotspot.</item>
+    </string-array>
+
+    <string-array name="pref_wifi_autoconnect_action_titles">
+        <item>Auto-Connect</item>
+        <item>Notify</item>
+        <item>Do nothing</item>
+    </string-array>
+    <string-array name="pref_wifi_autoconnect_action_values">
+        <item>@string/pref_wifi_autoconnect_action_do_connect</item>
+        <item>@string/pref_wifi_autoconnect_action_do_notify</item>
+        <item>@string/pref_wifi_autoconnect_action_do_nothing</item>
+    </string-array>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Basic Settings">
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="basic_on_connection_minimize"
+            android:summary="Minimize the app when connection successfully established"
+            android:title="Auto minimize after connection" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="basic_on_startup_show_tour"
+            android:summary="Show it every time on the application startup"
+            android:title="Show helping tour" />
+    </PreferenceCategory>
+<!--
+    <PreferenceCategory android:title="Wi-Fi">
+        <ListPreference
+            android:defaultValue="@string/pref_wifi_autoconnect_action_default"
+            android:entries="@array/pref_wifi_autoconnect_action_titles"
+            android:entryValues="@array/pref_wifi_autoconnect_action_values"
+            android:key="@string/pref_wifi_on_connected"
+            android:negativeButtonText="@null"
+            android:positiveButtonText="@null"
+            android:title="Action on connecting to Wi-Fi" />
+    </PreferenceCategory>
+-->
+</PreferenceScreen>

@@ -1,0 +1,15 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.Local">
+
+    <!--TODO fix coming soon huge size-->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="Coming soon dummy image"
+        android:padding="48dp"
+        android:src="@drawable/coming_soon" />
+
+</FrameLayout>
